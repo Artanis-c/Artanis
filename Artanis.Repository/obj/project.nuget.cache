@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MuMtIwfqTsia/tF/bvKIpKjopKb3tqrbUJeB5irjVpRb3jhEO3ECpDfhwWfPVZ4TuS9bDGLsP+9uCNH8LV3CzQ==",
+  "success": true,
+  "projectFilePath": "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\崔嘉庆\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\崔嘉庆\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\崔嘉庆\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\崔嘉庆\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\崔嘉庆\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

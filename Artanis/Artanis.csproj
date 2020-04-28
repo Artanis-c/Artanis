@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Artanis.Core\Artanis.Core.csproj" />
+    <ProjectReference Include="..\Artanis.Model\Artanis.Model.csproj" />
+    <ProjectReference Include="..\Artanis.Repository\Artanis.Repository.csproj" />
+    <ProjectReference Include="..\Artanis.Service\Artanis.Service.csproj" />
+  </ItemGroup>
+
+</Project>

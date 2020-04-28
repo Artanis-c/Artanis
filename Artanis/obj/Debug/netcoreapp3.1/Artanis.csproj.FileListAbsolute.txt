@@ -1,0 +1,7 @@
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.csprojAssemblyReference.cache
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.csproj.CoreCompileInputs.cache
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.MvcApplicationPartsAssemblyInfo.cache
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.RazorAssemblyInfo.cache
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.RazorAssemblyInfo.cs
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.AssemblyInfoInputs.cache
+D:\gayhub\Artanis\Artanis\obj\Debug\netcoreapp3.1\Artanis.AssemblyInfo.cs

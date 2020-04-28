@@ -1,0 +1,4 @@
+D:\gayhub\Artanis\Artanis.Service\obj\Debug\netcoreapp3.1\Artanis.Service.csprojAssemblyReference.cache
+D:\gayhub\Artanis\Artanis.Service\obj\Debug\netcoreapp3.1\Artanis.Service.csproj.CoreCompileInputs.cache
+D:\gayhub\Artanis\Artanis.Service\obj\Debug\netcoreapp3.1\Artanis.Service.AssemblyInfoInputs.cache
+D:\gayhub\Artanis\Artanis.Service\obj\Debug\netcoreapp3.1\Artanis.Service.AssemblyInfo.cs
