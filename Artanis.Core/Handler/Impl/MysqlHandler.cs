@@ -69,7 +69,6 @@ namespace Artanis.Core.Handler.Impl
             return sql.ToString();
         }
 
-
         public string Update<T>(dynamic parms, string condition)
         {
             string tableName = sqlUntil.GetTableName<T>();

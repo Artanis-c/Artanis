@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -47,5 +48,6 @@ namespace Artanis.Core.Util
             }
             return true;
         }
+
     }
 }

@@ -24,7 +24,7 @@ namespace Artanis.Core.Handler
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        string Insert<T>(T entity);
+        string Insert<T>();
 
 
         /// <summary>
