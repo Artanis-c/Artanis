@@ -283,11 +283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gayhub\\Artanis\\Artanis\\Artanis.csproj",
+      "projectUniqueName": "D:\\练习代码\\Artanis\\Artanis\\Artanis.csproj",
       "projectName": "Artanis",
-      "projectPath": "D:\\gayhub\\Artanis\\Artanis\\Artanis.csproj",
+      "projectPath": "D:\\练习代码\\Artanis\\Artanis\\Artanis.csproj",
       "packagesPath": "C:\\Users\\崔嘉庆\\.nuget\\packages\\",
-      "outputPath": "D:\\gayhub\\Artanis\\Artanis\\obj\\",
+      "outputPath": "D:\\练习代码\\Artanis\\Artanis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\崔嘉庆\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -303,17 +303,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
-              "projectPath": "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj"
+            "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
+              "projectPath": "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj"
             },
-            "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
-              "projectPath": "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj"
+            "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
+              "projectPath": "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj"
             },
-            "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {
-              "projectPath": "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj"
+            "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {
+              "projectPath": "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj"
             },
-            "D:\\gayhub\\Artanis\\Artanis.Service\\Artanis.Service.csproj": {
-              "projectPath": "D:\\gayhub\\Artanis\\Artanis.Service\\Artanis.Service.csproj"
+            "D:\\练习代码\\Artanis\\Artanis.Service\\Artanis.Service.csproj": {
+              "projectPath": "D:\\练习代码\\Artanis\\Artanis.Service\\Artanis.Service.csproj"
             }
           }
         }

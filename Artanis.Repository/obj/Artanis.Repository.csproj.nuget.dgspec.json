@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {}
+    "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {}
   },
   "projects": {
-    "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
+    "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj",
+        "projectUniqueName": "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj",
         "projectName": "Artanis.Core",
-        "projectPath": "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj",
+        "projectPath": "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj",
         "packagesPath": "C:\\Users\\崔嘉庆\\.nuget\\packages\\",
-        "outputPath": "D:\\gayhub\\Artanis\\Artanis.Core\\obj\\",
+        "outputPath": "D:\\练习代码\\Artanis\\Artanis.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\崔嘉庆\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
+    "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj",
+        "projectUniqueName": "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj",
         "projectName": "Artanis.Model",
-        "projectPath": "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj",
+        "projectPath": "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj",
         "packagesPath": "C:\\Users\\崔嘉庆\\.nuget\\packages\\",
-        "outputPath": "D:\\gayhub\\Artanis\\Artanis.Model\\obj\\",
+        "outputPath": "D:\\练习代码\\Artanis\\Artanis.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\崔嘉庆\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
-                "projectPath": "D:\\gayhub\\Artanis\\Artanis.Core\\Artanis.Core.csproj"
+              "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj": {
+                "projectPath": "D:\\练习代码\\Artanis\\Artanis.Core\\Artanis.Core.csproj"
               }
             }
           }
@@ -126,14 +126,14 @@
         }
       }
     },
-    "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {
+    "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj",
+        "projectUniqueName": "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj",
         "projectName": "Artanis.Repository",
-        "projectPath": "D:\\gayhub\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj",
+        "projectPath": "D:\\练习代码\\Artanis\\Artanis.Repository\\Artanis.Repository.csproj",
         "packagesPath": "C:\\Users\\崔嘉庆\\.nuget\\packages\\",
-        "outputPath": "D:\\gayhub\\Artanis\\Artanis.Repository\\obj\\",
+        "outputPath": "D:\\练习代码\\Artanis\\Artanis.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\崔嘉庆\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,8 +149,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
-                "projectPath": "D:\\gayhub\\Artanis\\Artanis.Model\\Artanis.Model.csproj"
+              "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj": {
+                "projectPath": "D:\\练习代码\\Artanis\\Artanis.Model\\Artanis.Model.csproj"
               }
             }
           }
