@@ -20,12 +20,12 @@ namespace Artanis.Core.Until
     /// <summary>
     /// 缓存工具类
     /// </summary>
-    public static class CacheUtil<K, V>
+    public static class CacheUtil
     {
         /// <summary>
         /// 线程安全字典类
         /// </summary>
-        private static ConcurrentDictionary<K, V> _cache;
+        private static ConcurrentDictionary<string, object> _cache;
 
         /// <summary>
         /// 添加缓存
@@ -33,7 +33,7 @@ namespace Artanis.Core.Until
         /// <param name="key"></param>
         /// <param name="value"></param>
         /// <returns></returns>
-        public static bool AddCache(K key, V value)
+        public static bool AddCache(string key, object value)
         {
             return _cache.TryAdd(key, value);
         }
@@ -43,13 +43,13 @@ namespace Artanis.Core.Until
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static V GetCache(K key)
+        public static T GetCache<T>(string key)
         {
-            V value;
+            object value;
             bool res = _cache.TryGetValue(key, out value);
             if (res)
             {
-                return value;
+                return (T)value;
             }
             //default关键字会对引用类型返回null，对值类型返回0
             return default;
@@ -60,7 +60,7 @@ namespace Artanis.Core.Until
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static bool ExitsKey(K key)
+        public static bool ExitsKey(string key)
         {
             return _cache.ContainsKey(key);
         }
@@ -70,7 +70,7 @@ namespace Artanis.Core.Until
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static bool RemoveKey(K key)
+        public static bool RemoveKey(string key)
         {
             V value;
             return _cache.TryRemove(key, out value);

@@ -58,7 +58,7 @@ namespace Artanis.Core.Handler.Impl
             return sql.ToString();
         }
 
-        public string Insert<T>(T entity)
+        public string Insert<T>()
         {
             string tableName = sqlUntil.GetTableName<T>();
             PropertyInfo[] propertyInfos = typeof(T).GetProperties();
@@ -69,16 +69,6 @@ namespace Artanis.Core.Handler.Impl
             return sql.ToString();
         }
 
-        public string InsertList<T>(IEnumerable<T> entities)
-        {
-            string tableName = sqlUntil.GetTableName<T>();
-            PropertyInfo[] propertyInfos = typeof(T).GetProperties();
-            StringBuilder sql = new StringBuilder();
-            sql.Append("INSERT INTO ")
-                .Append(sqlUntil.BuildSqlFiled<T>(propertyInfos))
-                .Append(sqlUntil.BuildSqlParms<T>(propertyInfos));
-            return sql.ToString();
-        }
 
         public string Update<T>(dynamic parms, string condition)
         {

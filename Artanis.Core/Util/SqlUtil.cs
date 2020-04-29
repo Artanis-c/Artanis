@@ -1,5 +1,7 @@
 ﻿using Artanis.Core.Attribute;
+using Artanis.Core.Enum;
 using Artanis.Core.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -34,10 +36,12 @@ namespace Artanis.Core.Util
         public string BuildSqlFiled<T>(PropertyInfo[] propertyInfos)
         {
             Type type = typeof(T);
+            string cacheKey = type.FullName + "_sqlFiled";
+            string idKey = type.FullName + "idType";
             #region 缓存校验
-            if (StringCacheUntil.ExitsKey(type.FullName))
+            if (StringCacheUntil.ExitsKey(cacheKey))
             {
-                return StringCacheUntil.GetCache(type.FullName);
+                return StringCacheUntil.GetCache(cacheKey);
             }
             #endregion
 
@@ -52,6 +56,7 @@ namespace Artanis.Core.Util
                 TableId tableId = property.GetCustomAttribute<TableId>();
                 if (tableId != null)
                 {
+                    StringCacheUntil.AddCache(idKey,JsonConvert.SerializeObject( new KeyValuePair<string,IdTypeEnum>(property.Name,tableId._idType)));
                     if (tableId._idType == Enum.IdTypeEnum.AUTO)
                     {
                         continue;
@@ -107,7 +112,7 @@ namespace Artanis.Core.Util
             sqlFiled.Append(")");
             //加入缓存
             string res = sqlFiled.ToString();
-            StringCacheUntil.AddCache(type.FullName, res);
+            StringCacheUntil.AddCache(cacheKey, res);
             return res;
         }
 
@@ -119,10 +124,11 @@ namespace Artanis.Core.Util
         public string BuildSqlParms<T>(PropertyInfo[] propertyInfos)
         {
             Type type = typeof(T);
+            string key = type.FullName + "sqlParms";
             #region 缓存校验
-            if (StringCacheUntil.ExitsKey(type.FullName))
+            if (StringCacheUntil.ExitsKey(key))
             {
-                return StringCacheUntil.GetCache(type.FullName);
+                return StringCacheUntil.GetCache(key);
             }
             #endregion
 
@@ -166,7 +172,7 @@ namespace Artanis.Core.Util
             #endregion
             //加入缓存
             string res = paramsSql.ToString();
-            StringCacheUntil.AddCache(type.FullName, res);
+            StringCacheUntil.AddCache(key, res);
             return res;
         }
 
@@ -178,10 +184,11 @@ namespace Artanis.Core.Util
         public string GetTableName<T>()
         {
             Type type = typeof(T);
+            string key = type.FullName + "_tableName";
             //检查缓存是否存在
-            if (StringCacheUntil.ExitsKey(type.FullName))
+            if (StringCacheUntil.ExitsKey(key))
             {
-                return StringCacheUntil.GetCache(type.FullName);
+                return StringCacheUntil.GetCache(key);
             }
             else
             {
@@ -197,7 +204,7 @@ namespace Artanis.Core.Util
                     tableName = type.Name;
                 }
                 //加入缓存
-                StringCacheUntil.AddCache(type.FullName, tableName);
+                StringCacheUntil.AddCache(key, tableName);
                 return tableName;
             }
         }

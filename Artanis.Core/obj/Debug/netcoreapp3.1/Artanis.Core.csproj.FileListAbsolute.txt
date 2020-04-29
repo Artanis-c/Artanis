@@ -4,3 +4,8 @@ D:\gayhub\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.AssemblyInfo
 D:\gayhub\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.AssemblyInfo.cs
 D:\gayhub\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.csprojAssemblyReference.cache
 D:\gayhub\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.csproj.CoreCompileInputs.cache
+D:\练习代码\Artanis\Artanis.Core\bin\Debug\netcoreapp3.1\Artanis.Core.deps.json
+D:\练习代码\Artanis\Artanis.Core\bin\Debug\netcoreapp3.1\Artanis.Core.dll
+D:\练习代码\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.csprojAssemblyReference.cache
+D:\练习代码\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.AssemblyInfoInputs.cache
+D:\练习代码\Artanis\Artanis.Core\obj\Debug\netcoreapp3.1\Artanis.Core.AssemblyInfo.cs

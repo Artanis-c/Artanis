@@ -22,12 +22,30 @@ namespace Artanis.Core.Util
     /// </summary>
     public static class AssertUntil
     {
+        /// <summary>
+        /// 字符串非空断言
+        /// </summary>
+        /// <param name="agr"></param>
         public static void AssertString(String agr)
         {
             if (string.IsNullOrWhiteSpace(agr))
             {
                 throw new ArgumentNullException("请传入有效的数据库表名");
             }
+        }
+
+        /// <summary>
+        /// int 值有效性断言
+        /// </summary>
+        /// <param name="req"></param>
+        /// <returns></returns>
+        public static bool AssertInt(int req)
+        {
+            if (req <= 0)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }
